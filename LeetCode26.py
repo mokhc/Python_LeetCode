@@ -1,9 +1,12 @@
-# Test Program - LeetCode 26
-# Trivial - What is one of the elements of a while loop
-# Class
+# Test - LC26
+# @Author - mokhc
+# @Date - 29/08/24
+# Trivial - What is meant by slicing a list?
+
 class Solution:
-    # Function
     def removeDuplicates(self, nums: List[int]) -> int:
-        nums[0:] = list(set(nums))
+        # assign
+        nums[0:] = sorted([x for x in list(set(nums))])
+        # return
         return len(nums)
 
