@@ -1,16 +1,20 @@
-# Test Program - LeetCode 14
+# Test - LC14
+# @Author - mokhc
+# @Date - 05/10/24
 # Trivial - How can you access a specific element of a string in a string array?
-# Runtime - 100%
 from typing import List
-
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        # print(strs[0][0:1]) # access one element
+        # initialize
         strs.sort(reverse=0)
-        # loop to compare the first and last
-        for a in range(len(strs[0])):
-            if strs[0][a] != strs[0 - 1][a]:
-                print("inside")
+        a = 0
+        # loop to compare the characters of the first and last
+        while a < len(strs[0]):
+            # return when the character at the first string and the last does not match at a
+            if strs[0][a] != strs[len(strs)-1][a]:
+                # return the characters from the first to a - 1
                 return strs[0][0:a]
+            a += 1
+        # return the first string from index 0 to length - 1
         return strs[0][0:len(strs[0])]
