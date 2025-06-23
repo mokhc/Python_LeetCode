@@ -2,6 +2,7 @@
 # @Author - mokhc
 # Trivial - What is one of the elements of a while loop?
 
+# function 1
 class Solution1:
     def isPalindrome(self, s: str) -> bool:
          # initialize

@@ -3,6 +3,7 @@
 # Trivial - What is an absolute function?
 from typing import List
 
+# function 1
 class Solution1:
     def maxProfit(self, prices: List[int]) -> int:
         # initializations
