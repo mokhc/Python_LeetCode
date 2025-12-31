@@ -19,3 +19,5 @@
 ### [Leetcode121](https://github.com/mokhc/Python_LeetCode/blob/main/LeetCode121.py)
 ### [Leetcode125](https://github.com/mokhc/Python_LeetCode/blob/main/LeetCode125.py)
 ### [Leetcode136](https://github.com/mokhc/Python_LeetCode/blob/main/LeetCode136.py)
+### [Leetcode163](https://github.com/mokhc/Python_LeetCode/blob/main/LeetCode163.py)
+### [Leetcode168](https://github.com/mokhc/Python_LeetCode/blob/main/LeetCode168.py)
